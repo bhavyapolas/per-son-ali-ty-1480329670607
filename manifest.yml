@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: per-son-ali-ty
+  host: per-son-ali-ty
+  disk_quota: 1024M
+  services:
+  - per-son-ali-ty-personality_insights
